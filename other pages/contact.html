@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" cotent="width=device-width, initial-scale=1.0">
+        <title>
+            Contact
+        </title>
+        <style>
+            body {color: brown;}
+            .content-body {
+                margin-top: 1cm;
+                
+                background: #34C759; /* Green background */
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+            }
+            #mm1 {margin-left: 2cm;}
+            .form {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1.5cm;
+                font-size: larger;
+            }
+            #send-message {
+                margin-bottom: 1cm;
+                margin-left: 2cm;
+                
+            }
+            #text {font-size: 20pt;
+                font-weight: bold;
+            }
+            .name-input {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                margin-left: 8cm;
+                margin-bottom: 1cm;
+            }
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+            .email-label {
+                margin-left: 8cm;
+            }
+            .message-label {
+                margin-left: 8cm;
+            }
+            #button {
+                margin-left: 8cm;   
+            }
+            .send-message {
+                border-radius: 60px;
+                border: solid;
+                border-color: brown;
+                background-color: brown;
+                color: white;
+                font-size: 15pt;
+            }
+            .form-text {
+                height: 50px; 
+            }
+            footer {
+                display: flex;
+                gap: 200px;
+                margin-top: 1.5cm;
+            }
+            .signup-text {margin-top: 35px;}
+        </style>
+    </head>
+    <body>
+        <div class="content-body">
+            <div id="mm1">
+                <h1>Contact Us</h1>
+            <p id="first-prg">
+                To know more about us and our services or to work <br> with us, kindly reach out to us...
+            </p>
+            <a href="mailto:info@cannylife.org">Email</a> <br>
+            <a href="tel:+2348054095199">Call us</a>
+            </div>
+            
+        </div>
+        <form class="form">
+            <div >
+            <div id="send-message">
+             <p id="text">Send us a message</p>
+            </div>
+           <div class="name-input">
+                <div id="firstname">
+                    <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Akin" aria-label="First Name" required pattern="[A-Za-z\s]+">
+                </div>
+                <div id="lastname">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Ogbonnaya" aria-label="Last Name" required pattern="[A-Za-z\s]+">
+                </div>
+                <br>
+            </div>
+            <div class="email-label">
+                <label for="email-input">Email</label>
+                    <input 
+                    type="email"
+                    class="email-input"
+                    placeholder="bulama@email.com"
+                    required
+                    aria-label="Email Address"
+                    >
+            </div> <br>
+            <div class="message-label">
+                <label for="Message">Message</label>
+                    <input 
+                    type="text"
+                    class="form-text"
+                    placeholder="Type here..."
+                    required
+                    aria-label="Message"
+                    >
+            </div> <br>
+            <div id="button">
+                <button type="submit" class="send-message">Send</button>
+            </div>
+            
+               </div>     <img src="../source/placeholder2.png" height="400px" width="400px">
+           
+
+        </form>
+        <footer class="footer">
+            <div class="title">
+                <h2>
+                    CannyLife
+                </h2>
+            </div>
+            <div class="explore">
+                <h3>
+                    Explore
+                </h3>    
+                    <ul class="explore-list">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html">About us</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                    </ul>
+
+            </div>
+            <div class="follow-us">
+                <h3>Follow us</h3>
+                <ul class="follow-list">
+                    <li><a href="4">Email</a></li>
+                    <li><a href="4">Facebook</a></li>
+                    <li><a href="4">Instagram</a></li>
+                    <li><a href="4">TikTok</a></li>
+                </ul>
+            </div>
+            <div class="footer-form">
+                <form>
+                    <p class="signup-text">Sign up with your email to receive news and updates</p>
+                    <input 
+                    type="email"
+                    class="email-input"
+                    placeholder="myself@email.com"
+                    required
+                    aria-label="Email Address"
+                    >
+                    <br>
+                    <button type="submit" class="signup-button">Sign up</button>
+                </form>
+                
+            </div>
+        </footer>
+        
+    </body>
+</html>

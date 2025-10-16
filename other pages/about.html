@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" cotent="width=device-width, initial-scale=1.0">
+    <title>Abous us</title>
+    <style>
+        body {
+            color: brown;
+        }
+        h1 {
+            margin-left: 300px;
+            margin-bottom: -10px;
+        }
+        .about-us {
+            display: flex;
+            font-size: larger;
+            justify-content: space-between;
+        }
+        #content {
+            width: 100%;
+            
+        }
+         .brand-body-text{
+            column-count: 2;
+            
+            width: 70%;
+            height:80%;
+            margin-left: 65px;
+            padding-top: 20px;
+            
+        }
+
+        .about-page-img {
+            width: 600px;
+        }
+        .services-body {
+            
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #34C759; /* Green background */
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+        }
+        #service-link {
+            font-weight: bold;
+            font-size: 30pt;
+            border: solid;
+            border-radius: 80px;
+            border-color: brown;
+            background-color: brown;
+            color: #34C759;
+        }
+        footer {
+    display: flex;
+    gap: 200px;
+}
+
+.form {
+    margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+    <h1 class="who-we-are">Who we are</h1>
+    <div class="about-us"> 
+        <div id="content">
+            <p class="brand-body-text">
+            At CannyLife, we're incredibly passionate about the welfare of people. Our mission is to provide essential services for shelter and food, while also supporting the growth of other businesses. We believe in creating a future where all businesses thrive together. With our team of specialists and sustainable practices, we're dedicated to
+            achieving success. Our focus remains on offering the best homes in serene locations at affordable prices. Additionally, we prioritize providing high-quality locally sourced produce while minimizing environmental impact. We aim to bring together industries and create a platform where everyone can thrive. Ultimately, our goal is to foster a community that prioritizes well-being and sustainability for a brighter future.
+            </p>
+        </div>
+        
+         
+        <img src="../source/placeholder 1.png" class="about-page-img" height="380px">
+
+    </div>
+    <div class="services-body"> 
+        <div class="our-services">
+            <a href="#" id="service-link">Our services</a>
+        </div>
+        
+    </div>
+    <footer class="footer">
+            <div class="title">
+                <h2>
+                    CannyLife
+                </h2>
+            </div>
+            <div class="explore">
+                <h3>
+                    Explore
+                </h3>    
+                    <ul class="explore-list">
+                        <li><a href="../index.html">Home</a></li>
+                        
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                    </ul>
+
+            </div>
+            <div class="follow-us">
+                <h3>Follow us</h3>
+                <ul class="follow-list">
+                    
+                    <li><a href="4">Facebook</a></li>
+                    <li><a href="4">Instagram</a></li>
+                    <li><a href="4">TikTok</a></li>
+                </ul>
+            </div>
+            <div class="form">
+                <form>
+                    <p class="form-text">Sign up with your email to receive news and updates</p>
+                    <input 
+                    type="email"
+                    class="email-input"
+                    placeholder="myself@email.com"
+                    required
+                    aria-label="Email Address"
+                    >
+                    <br>
+                    <button type="submit" class="signup-button">Sign up</button>
+                </form>
+                
+            </div>
+        </footer>
+</body>
+</html>
