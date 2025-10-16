@@ -32,16 +32,16 @@ main {
     align-items: center;
     display: flex;
     font-size: 18pt;
-    
+    padding-top: 3.5cm;
 }
 .cnyl {
     text-align: center;
     color: brown;
-    
+    margin-left: -1.5cm;
 }
 .home-brief {
     text-align: center;
-    margin-left: 17%;
+    margin-left: 17;
     width: 250px;
     color: brown;
     
@@ -50,7 +50,7 @@ main {
     margin-left: 40%;
 }
 .learn-more {
-    margin-left: 35%;
+    margin-left: 20%;
     border: solid brown 5px;
     color:white;
     background-color: brown;
